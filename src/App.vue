@@ -40,7 +40,7 @@ import Pagination from "@/components/Pagination.vue";
 
   <section class="container w-full mx-auto space-y-4 p-3">
     <h3 class="font-bold text-xl md:text-2xl">Recent blog posts</h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 justify-center gap-5">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 justify-center gap-10 md:gap-5">
       <div class="space-y-4">
         <img
           src="/src/assets/images/blog-posts/first.png"
@@ -82,7 +82,7 @@ import Pagination from "@/components/Pagination.vue";
           </p>
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:col-span-2 lg:col-span-1 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:col-span-2 lg:col-span-1 gap-10 md:gap-5">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-0 lg:gap-3">
           <img
             src="/src/assets/images/blog-posts/second.png"
