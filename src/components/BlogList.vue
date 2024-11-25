@@ -22,10 +22,16 @@
 
 <script setup>
 import BlogCard from "./BlogCard.vue";
+import firstImage from "@/assets/images/all-posts/first.png";
+import secondImage from "@/assets/images/all-posts/second.png";
+import thirdImage from "@/assets/images/all-posts/third.png";
+import fourthImage from "@/assets/images/all-posts/fourth.png";
+import fifthImage from "@/assets/images/all-posts/fifth.png";
+import sixthImage from "@/assets/images/all-posts/sixth.png";
 
 const blogs = [
   {
-    image: "/src/assets/images/all-posts/first.png",
+    image: firstImage,
     author: "Alec Whitten",
     date: "• 17 Jan 2022",
     title: "Bill Walsh leadership lessons",
@@ -34,7 +40,7 @@ const blogs = [
     category: ["leadership", "management"],
   },
   {
-    image: "/src/assets/images/all-posts/second.png",
+    image: secondImage,
     author: "Demi Wilkinson",
     date: "• 16 Jan 2022",
     title: "PM mental models",
@@ -43,7 +49,7 @@ const blogs = [
     category: ["research", "product", "frameworks"],
   },
   {
-    image: "/src/assets/images/all-posts/third.png",
+    image: thirdImage,
     author: "Candice Wu",
     date: "• 15 Jan 2022",
     title: "What is Wireframing?",
@@ -52,7 +58,7 @@ const blogs = [
     category: ["design", "research"],
   },
   {
-    image: "/src/assets/images/all-posts/fourth.png",
+    image: fourthImage,
     author: "Natali Craig",
     date: "• 14 Jan 2022",
     title: "How collaboration makes us better designers",
@@ -61,7 +67,7 @@ const blogs = [
     category: ["design", "research"],
   },
   {
-    image: "/src/assets/images/all-posts/fifth.png",
+    image: fifthImage,
     author: "Drew Cano",
     date: "• 13 Jan 2022",
     title: "Our top 10 Javascript frameworks to use",
@@ -70,7 +76,7 @@ const blogs = [
     category: ["Software Development", "tools", "SaaS"],
   },
   {
-    image: "/src/assets/images/all-posts/sixth.png",
+    image: sixthImage,
     author: "Orlando Diggs",
     date: "• 12 Jan 2022",
     title: "Podcast: Creating a better CX Community",
